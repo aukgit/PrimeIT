@@ -20,7 +20,7 @@ window.onload = function() {
             if($h1.hasClass("green")){
                $h1.removeClass("green");
                $h1.addClass("red");
-            } else if($single_generated_item.hasClass("red")) {
+            } else if($h1.hasClass("red")) {
                $h1.removeClass("red");
                $h1.addClass("green"); 
             } else {
